@@ -1,0 +1,27 @@
+//
+//  TGPchFile.pch
+//  团购
+//
+//  Created by 陆佳磊 on 15/7/31.
+//  Copyright (c) 2015年 LU. All rights reserved.
+//
+
+#ifndef ___TGPchFile_pch
+#define ___TGPchFile_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+#define k
+// $(SRCROOT)/TGPchFile.pch
+// 路径：public header folder Path
+
+#import "Common.h"
+
+#endif
+
+
+
+#endif
